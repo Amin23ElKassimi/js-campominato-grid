@@ -10,6 +10,7 @@ main{
     text-align: center;
     background-color: #011627;
     color: white;
+    overflow: auto;
 }
 
 section.main-content{
@@ -35,7 +36,7 @@ section.main-content{
 .square2{
     width: calc(100% / 9);
     height: calc(100% / 9);
-    border: 2px solid white;
+    border: 2px solid rgb(235, 26, 26);
     font-size: 1.5rem;
     display: flex;
     justify-content: center;
@@ -45,7 +46,7 @@ section.main-content{
 .square3{
     width: calc(100% / 7);
     height: calc(100% / 7);
-    border: 2px solid white;
+    border: 2px solid green;
     font-size: 1.5rem;
     display: flex;
     justify-content: center;
