@@ -24,10 +24,10 @@ const mainContentEl = document.querySelector('main .main-content');
 // Play button
 const play = document.getElementById('play');
 
-// Difficolta
-const difficulty = 3;
 
 play.addEventListener('click', function(){
+    // Difficolta
+    const difficulty = parseInt(document.getElementById('inDiffic').value);
 
     if (difficulty === 1) {
         // # per 100 iterazioni...
