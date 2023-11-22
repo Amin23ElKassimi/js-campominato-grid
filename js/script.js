@@ -1,4 +1,5 @@
 
+// --------- Functions ---------
 // Funzione 01       funzione che genera un nuovo elemento quadrato
 function generateSquare() {
         const squareElement = document.createElement('div');
@@ -18,14 +19,18 @@ function generateSquare3() {
     return squareElement;
 }
 
+// --------- Tags ---------
 // recupero il parent all'interno del quale voglio inserire i miei elementi
 const mainContentEl = document.querySelector('main .main-content');
-
 // Play button
 const play = document.getElementById('play');
 
 
+// --------- Algorithm ---------
 play.addEventListener('click', function(){
+    // RESET
+    mainContentEl.innerHTML = '';
+
     // Difficolta
     const difficulty = parseInt(document.getElementById('inDiffic').value);
 
